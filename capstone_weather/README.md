@@ -6,9 +6,9 @@ The source for the instructions is in the reStructuredText file [project.rst](ht
 
 Creating the instructions file involves three steps:
 
-#. Convert the `reStructuredText` file, `project.rst`, to `html`.
-#. Modify the `html` file so the visibility of the "tips" in the instructions can be toggled by the student reading the instructions.
-#. Move the modified html file (which is the `instructions.html` file) to the `exercises/capstone_weather` folder.
+1. Convert the `reStructuredText` file, `project.rst`, to `html`.
+2. Modify the `html` file so the visibility of the "tips" in the instructions can be toggled by the student reading the instructions.
+3. Move the modified html file (which is the `instructions.html` file) to the `exercises/capstone_weather` folder.
 
 ## Some preliminary steps
 
@@ -19,15 +19,15 @@ Assuming that you have created the `cm` environment, you can activate it using:
 
 `edm shell -e cm`
 
-Next you should use `cd` to change directory to the directory where this `readme.md` file (and the `project.rst` file) is found (`class_materials/capstone_project`).
+Next you should use `cd` to change directory to the `capstone_weather` directory in your local copy of the `class-materials` repository (where this `README.md` file and the `project.rst` file are found).
 
 ## Creating the `instructions.html` file
 
-The three steps in the numbered list above can be accomplished by executing the following (on windows use a backslashes instead of a forward slashes):
+The three steps in the numbered list above can be accomplished by executing the following (on windows use backslashes instead of forward slashes):
 
     rst2html project.rst build/project.html
     python hidetips.py
-    mv build/instructions.html exercises/capstone_weather/
+    mv build/instructions.html ../exercises/capstone_weather/
 
 ## A note about images
 
