@@ -1,6 +1,6 @@
 # Source Code and Instructions for Generating Instructions for the Capstone Weather Project
 
-This directory contains source code for generating the instructions for the Capstone Weather project, [exercises/capstone_weather/instructions.html](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/instructions.html.)
+This directory contains source code for generating the instructions for the Capstone Weather project, [exercises/capstone_weather/instructions.html](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/instructions.html).
 
 The source for the instructions is in the reStructuredText file [project.rst](https://github.com/enthought/class-material/blob/dev/capstone_weather/project.rst).
 
@@ -10,7 +10,9 @@ Creating the instructions file involves three steps:
 2. Modify the `html` file so the visibility of the "tips" in the instructions can be toggled by the student reading the instructions.
 3. Move the modified html file (which is the `instructions.html` file) to the `exercises/capstone_weather` folder.
 
-## Some preliminary steps
+If you intend to modify the project instructions, you should edit the [project.rst](https://github.com/enthought/class-material/blob/dev/capstone_weather/project.rst), then recreate the [instructions.html](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/instructions.html) by completing the prescribed steps.
+
+## Getting ready
 
 In order to accomplish the first step, you need to be in an environment where `rst2html` is installed.
 The `cm` environment, whose creation is described [here](https://github.com/enthought/class-material/blob/dev/ci/QUICKSTART.md) would work.
@@ -23,7 +25,7 @@ Next you should use `cd` to change directory to the `capstone_weather` directory
 
 ## Creating the `instructions.html` file
 
-The three steps in the numbered list above can be accomplished by executing the following (on windows use backslashes instead of forward slashes):
+After activating an appropriate environment and changing to the correct directory, the three steps in the numbered list above can be accomplished by executing the following (on windows use backslashes instead of forward slashes):
 
     rst2html project.rst build/project.html
     python hidetips.py
