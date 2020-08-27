@@ -6,8 +6,8 @@ The source for the instructions is in the reStructuredText file [project.rst](ht
 
 Creating the instructions file involves three steps:
 
-1. Convert the `reStructuredText` file, `project.rst`, to `html`.
-2. Modify the `html` file so the visibility of the "tips" in the instructions can be toggled by the student reading the instructions.
+1. Convert the _reStructuredText_ file, `project.rst`, to _html_.
+2. Modify the html file so the visibility of the "tips" in the instructions can be toggled by the student reading the instructions.
 3. Move the modified html file (which is the `instructions.html` file) to the `exercises/capstone_weather` folder.
 
 These steps are described in more detail below.
