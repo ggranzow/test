@@ -10,7 +10,8 @@ Creating the instructions file involves three steps:
 2. Modify the `html` file so the visibility of the "tips" in the instructions can be toggled by the student reading the instructions.
 3. Move the modified html file (which is the `instructions.html` file) to the `exercises/capstone_weather` folder.
 
-If you intend to modify the project instructions, you should edit the [project.rst](https://github.com/enthought/class-material/blob/dev/capstone_weather/project.rst), then recreate the [instructions.html](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/instructions.html) by completing the prescribed steps.
+These steps are described in more detail below.
+If you intend to modify the project instructions, you should edit the [project.rst](https://github.com/enthought/class-material/blob/dev/capstone_weather/project.rst) file, then recreate the [instructions.html](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/instructions.html) file by completing the prescribed steps.
 
 ## Getting ready
 
