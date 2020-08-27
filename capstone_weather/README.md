@@ -16,11 +16,9 @@ If you intend to modify the project instructions, you should edit the [project.r
 ## Getting ready
 
 In order to accomplish the first step, you need to be in an environment where `rst2html` is installed.
-The `cm` environment, whose creation is described [here](https://github.com/enthought/class-material/blob/dev/ci/QUICKSTART.md) would work.
-Or you can use the standard `python-class` environment used for our classes.
-Assuming that you have created the `cm` environment, you can activate it using:
+`rst2html` can be installed using:
 
-`edm shell -e cm`
+`pip install rst2html`
 
 Next you should use `cd` to change directory to the `capstone_weather` directory in your local copy of the `class-materials` repository (where this `README.md` file and the `project.rst` file are found).
 
