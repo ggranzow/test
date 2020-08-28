@@ -28,7 +28,7 @@ Finally, if a `build` directory does not already exist in your `class-materials/
 
 ## Creating the `instructions.html` file
 
-After installing `rst2html`, changing to the correct directory, and creating a `build` directory, the three steps in the numbered list above can be accomplished by executing the following:
+After installing `rst2html`, changing to the `class-materials/capstone_project` directory, and creating a `build` directory, the three steps in the numbered list above can be accomplished by executing the following:
 
     rst2html project.rst build/project.html
     python hidetips.py
