@@ -4,7 +4,7 @@ This directory contains source code for generating the instructions for the Caps
 
 The source for the instructions is in the reStructuredText file [project.rst](https://github.com/enthought/class-material/blob/dev/capstone_weather/project.rst).
 
-Creating the instructions file involves three steps:
+Creating the `instructions.html` file involves three steps:
 
 1. Convert the _reStructuredText_ file, `project.rst`, to _html_.
 2. Modify the html file so the visibility of the "tips" in the instructions can be toggled by the student reading the instructions.
@@ -13,18 +13,18 @@ Creating the instructions file involves three steps:
 These steps are described in more detail below.
 If you intend to modify the project instructions, you should edit the [project.rst](https://github.com/enthought/class-material/blob/dev/capstone_weather/project.rst) file, then recreate the [instructions.html](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/instructions.html) file by completing the prescribed steps.
 
-## Getting ready
+## Prerequisite steps
 
 In order to accomplish the first step, you need to be in an environment where `rst2html` is installed.
 `rst2html` can be installed using:
 
 `pip install rst2html`
 
-Next you should use `cd` to change directory to the `capstone_weather` directory in your local copy of the `class-materials` repository (where this `README.md` file and the `project.rst` file are found).
+Next, use `cd` to change directory to the `capstone_weather` directory in your local copy of the `class-materials` repository (where this `README.md` file and the `project.rst` and `hidetips.py` files are found).
 
 ## Creating the `instructions.html` file
 
-After activating an appropriate environment and changing to the correct directory, the three steps in the numbered list above can be accomplished by executing the following (on windows use backslashes instead of forward slashes):
+After installing `rst2html` and changing to the correct directory, the three steps in the numbered list above can be accomplished by executing the following:
 
     rst2html project.rst build/project.html
     python hidetips.py
@@ -40,7 +40,7 @@ The windows that were captured were created by running [figures.py](https://gith
 
 ## Creating the map of the United States used in the enhancements.
 
-The map of the united states in [exercises/capstone_weather/data/mapUSA.png](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/mapUSA.png) was created using [create_map.py](https://github.com/enthought/class-material/blob/dev/capstone_weather/create_map.py).
+The map of the United States in [exercises/capstone_weather/data/mapUSA.png](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/mapUSA.png) was created using [create_map.py](https://github.com/enthought/class-material/blob/dev/capstone_weather/create_map.py).
 
 This script requires the `cartopy` module.  The `python-class` environment includes `cartopy`.
 
