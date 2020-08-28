@@ -36,11 +36,11 @@ The instructions include images.
 These images are in [exercises/capstone_weather/images](https://github.com/enthought/class-material/blob/dev/capstone_weather/images).
 
 The images were created using a screen capture tool.
-The windows that were captured were created by running [figures.py](https://github.com/enthought/class-material/blob/dev/capstone_weather/figures.py)
+The windows that were captured were created by running [figures.py](https://github.com/enthought/class-material/blob/dev/capstone_weather/figures.py).
 
 ## Creating the map of the United States used in the enhancements.
 
 The map of the United States in [exercises/capstone_weather/data/mapUSA.png](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/mapUSA.png) was created using [create_map.py](https://github.com/enthought/class-material/blob/dev/capstone_weather/create_map.py).
 
-This script requires the `cartopy` module.  The `python-class` environment used in our classes includes `cartopy`.
+[create_map.py](https://github.com/enthought/class-material/blob/dev/capstone_weather/create_map.py) requires the `cartopy` module.  The `python-class` environment used in our classes includes `cartopy`.
 
