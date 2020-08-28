@@ -22,13 +22,13 @@ In order to accomplish the first step, you need to be in an environment where `r
 
 Next, use `cd` to change directory to the `capstone_weather` directory in your local copy of the `class-materials` repository (where this `README.md` file and the `project.rst` and `hidetips.py` files are found).
 
-Finally, create a `build` directory to contain the intermediate and final files created during the process using:
+Finally, if a `build` directory does not already exist in your `class-materials/capstone_project` directory, create a `build` directory to contain the intermediate and final files created during the process using:
 
 `mkdir build`
 
 ## Creating the `instructions.html` file
 
-After installing `rst2html` and changing to the correct directory, the three steps in the numbered list above can be accomplished by executing the following:
+After installing `rst2html`, changing to the correct directory, and creating a `build` directory, the three steps in the numbered list above can be accomplished by executing the following:
 
     rst2html project.rst build/project.html
     python hidetips.py
