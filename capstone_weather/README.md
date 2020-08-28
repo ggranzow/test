@@ -42,5 +42,5 @@ The windows that were captured were created by running [figures.py](https://gith
 
 The map of the United States in [exercises/capstone_weather/data/mapUSA.png](https://github.com/enthought/class-material/blob/dev/exercises/capstone_weather/mapUSA.png) was created using [create_map.py](https://github.com/enthought/class-material/blob/dev/capstone_weather/create_map.py).
 
-This script requires the `cartopy` module.  The `python-class` environment includes `cartopy`.
+This script requires the `cartopy` module.  The `python-class` environment used in our classes includes `cartopy`.
 
